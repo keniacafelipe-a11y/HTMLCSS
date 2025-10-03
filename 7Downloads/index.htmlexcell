@@ -1,0 +1,34 @@
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads</title>
+</head>
+<body>
+    <h1>Downloads</h1>
+    <p>Vamos inserir links para Downloads</p>
+    <ul>
+        <li>Arquivo para download em <a href="teste.excel" download="teste.excel" type="aplications/xml"></a></li>
+        <li>Arquivo para download em <a href="teste1.excel" download="teste.excel
+        " type="aplications/xml">pdf</a></li>
+    </ul>
+    <p>Para utilizar os medias types temos alguns modelos.</p>
+
+    <pre>
+        Aqui vão alguns media types bem usados no nosso dia-a-dia:
+        * aplication/zip
+        * text/html
+        * text/css
+        *texte/javascript
+        *video/mp4
+        *video/h264
+        *video/jpeg
+        *audio/aac
+        *audio/mpeg
+        *<image>
+        <jpeg>*image/png</jpeg>
+        <pre>
+            <p>mas se voce nao encontrar o tipo de arquivo nesta lista podemos encontrar no site</p>
+            <p><a href="https://wwww.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">https;//www.iana.org/assignments/types/media-types.xhtml</a></p>
+        </pre>

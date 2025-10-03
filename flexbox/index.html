@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .caixas1 {
+            width: 30%;
+            height: 15vh;
+            border: 2px solid black;
+        }
+        .area {
+            display: flex;
+            background-color: rgb(237, 100, 100);
+            justify-content: center;
+            height: 150px;
+            width: 100%;
+        }
+
+
+        .caixas2 {
+            width: 25%; 
+            height: 25vh;
+            border: 2px solid black;
+        }
+
+        .area1 {
+            display: flex;
+            background-color: cornflowerblue;
+        }
+
+        .area2 {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(100, 237, 134);
+        }
+
+        .area3 {
+            display: flex;
+            background-color: rgb(194, 100, 237);
+            flex-wrap: wrap;
+        }
+
+        .area4 {
+            display: flex;
+            background-color: rgb(237, 100, 100);
+            justify-content: center;
+            height: 150px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="area1">
+        <div class="caixas1">1</div>
+        
+    </div>
+    <div class="area2">
+        
+        <div style="order: 2;" class="caixas1">2</div>
+        <div style="order: 0;" class="caixas1">3</div>
+    </div>
+
+    <div class="area3">
+        <div class="caixas2">1</div>
+        <div class="caixas2">2</div>
+        <div class="caixas2">3</div>
+    </div>
+
+    <div class="area4">
+        <div class="caixas1">1</div>
+        <div class="caixas1">2</div>
+        <div class="caixas1">3</div>
+    </div>

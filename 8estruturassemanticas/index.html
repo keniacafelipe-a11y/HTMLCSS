@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de estrutura semantica</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        nav section,
+        article,
+        aside,
+        footer {
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        main {
+            display: flex;
+        }
+
+        article {
+            flex: 3;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+
+<body>
+    <!--cabeçalho principal -->
+    <header>
+        <h1> minha pagina</h1>
+        <p>bem vindo ao site de exemplo com HTML semantico</p>
+    </header>
+
+    <!-- navegaçao principal-->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio<a>
+            <li>
+            <li><a href="#"></a>sobre<a>
+            <li>
+            <li><a href="#">serviços<a>
+            <li>
+            <li><a href="#">contato<a>
+            <li>
+        </ul>
+    </nav>
+
+
+    <!-- conteudo principal -->
+    <main>
+        <!-- artigos ou posts principais-->
+        <article>
+            <header>
+                <h2>titulo do artigo</h2>
+                <p>publicado em <time datetime="2025-4-08">8 de abril de 2025></time></p>
+            </header>
+            <section>
+                <h3>inyroduçao</h3>
+                <p>este e um exemplo de seçao dentro de um artigo.</p>
+
+            </section>
+            <section>
+                <h3>conteudo</h3>
+                <p>mais informaçoes relevantes aparecem aqui.</p>
+            </section>
+            <footer>
+                <p>Autor: fulano de tal</p>
+            </footer>
+        </article>
+
+        <!--barra lateral com informaçoes adicionais-->
+        <aside>
+            <h3>sobre o autor</h3>
+            <p>fulano e desenvovedor front-end com paixao por HTML semantico.</p>
+        </aside>
+
+
+    </main>
+
+    <!--Rodape da página-->
+    <footer>
+        <p>&copy; 2025 minha página. todos os direitos reservados.</p>
+    </footer>
+
+</body>
+<html>
